@@ -19,3 +19,34 @@
 
 ## 🧱 Project Structure
 
+lib/
+├── main.dart
+├── screens/
+│ ├── swing_capture.dart
+│ ├── swing_results.dart
+│ ├── putting_tracker.dart
+│ ├── putting_stats_dashboard.dart
+│ ├── navigation_wrapper.dart
+│ ├── settings.dart
+│ └── ...
+assets/
+└── models/
+└── movenet_singlepose_lightning.tflite
+
+
+---
+
+## 🔧 Getting Started
+
+### Prerequisites
+- Flutter SDK ≥ 3.0
+- Firebase Project (Firestore, Storage, Auth)
+- Android Studio / Xcode / VS Code
+- `google-services.json` for Android or `GoogleService-Info.plist` for iOS
+
+### Installation
+```bash
+git clone https://github.com/YOUR_USERNAME/blade_app.git
+cd blade_app
+flutter pub get
+flutter run
